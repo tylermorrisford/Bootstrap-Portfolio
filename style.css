@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+
+/* header classes */
+.header {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #5F54E8;
+}
+
+.hwrapper {
+    width: 960px;
+    margin:0 auto;
+    
+}
+.myname {
+    display: inline;
+}
+
+.mynav {
+    float: right;
+}
+
+/* about me classes */
+
+.awrapper {
+    background-color: white;
+    width: 960px;
+    margin: 30px auto 0;
+    border: 1px solid #8fd3f4;
+}
+
+.about-container {
+    widows: 950px;
+    margin: 0 auto;
+}
+
+.imgt {
+    float:left;
+    border-radius: 100%;
+    margin: 5px 10px 10px 0;
+}
+
+/* portfolio classes */
+
+/* contact classe */
+
+/* footer classes */
+
+.footer {
+    border-top: 1px solid #5F54E8;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    text-align: center;
+}
