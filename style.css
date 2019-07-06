@@ -15,16 +15,13 @@ p, h2, a {
     font-family: 'Roboto', sans-serif;
 }
 
-.btn {
-    color: #5F54E8;
-}
 /* header classes */
 .navbar {
     padding: 0 10%;
     border-bottom: 1px solid #5F54E8;
 }
 
-.nav-item, .nav-link {
+.nav-link {
     color: #5F54E8;
 }
 
@@ -34,6 +31,13 @@ p, h2, a {
 
 .pgtitle {
     padding: 5px 0 0 10px;
+}
+
+.my-name {
+    font-family: 'Monoton', cursive;
+    color: #5F54E8;
+    font-size: 2rem;
+    margin-bottom: 0;
 }
 /* about me classes */
 
