@@ -17,25 +17,9 @@ p, h2, a {
 
 
 /* header classes */
-.header {
-    background-color: white;
-    height: 60px;
-    width: 100%;
-    padding: 10px 0;
+.navbar {
+    padding: 0 10%;
     border-bottom: 1px solid #5F54E8;
-}
-
-.hwrapper {
-    width: 960px;
-    margin:0 auto;
-    
-}
-.myname {
-    display: inline;
-}
-
-.mynav {
-    float: right;
 }
 
 .nav-item, .nav-link {
