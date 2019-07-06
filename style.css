@@ -35,16 +35,14 @@ p, h2, a {
 }
 /* about me classes */
 
-.awrapper {
+.page-wrapper {
     background-color: white;
-    /* width: 960px; */
-    margin: 30px auto 0;
+    margin: 30px auto 100px;
     border: 1px solid #5F54E8;
 }
 
-.about-container {
-    /* width: 950px; */
-    margin: 0 auto;
+.content {
+    margin: 0 auto 10px;
     padding: 10px;
 }
 
