@@ -15,7 +15,9 @@ p, h2, a {
     font-family: 'Roboto', sans-serif;
 }
 
-
+.btn {
+    color: #5F54E8;
+}
 /* header classes */
 .navbar {
     padding: 0 10%;
@@ -54,7 +56,17 @@ p, h2, a {
 
 /* portfolio classes */
 
-/* contact classe */
+/* contact classes */
+
+.btn-primary {
+    background-color: #84fab0;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: #5F54E8;
+    color:white;
+}
 
 /* footer classes */
 
