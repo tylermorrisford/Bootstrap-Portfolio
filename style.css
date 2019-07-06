@@ -2,6 +2,19 @@ body {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
+h1 {
+    font-family: 'Monoton', cursive;
+    color: #5F54E8;
+}
+
+h2 {
+    color: #5F54E8;
+}
+
+p, h2, a {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 /* header classes */
 .header {
@@ -25,18 +38,30 @@ body {
     float: right;
 }
 
+.nav-item, .nav-link {
+    color: #5F54E8;
+}
+
+.active {
+    font-weight: 800;
+}
+
+.pgtitle {
+    padding: 5px 0 0 10px;
+}
 /* about me classes */
 
 .awrapper {
     background-color: white;
-    width: 960px;
+    /* width: 960px; */
     margin: 30px auto 0;
-    border: 1px solid #8fd3f4;
+    border: 1px solid #5F54E8;
 }
 
 .about-container {
-    widows: 950px;
+    /* width: 950px; */
     margin: 0 auto;
+    padding: 10px;
 }
 
 .imgt {
@@ -59,4 +84,5 @@ body {
     bottom: 0;
     background-color: white;
     text-align: center;
+    padding-top: 8px;
 }
