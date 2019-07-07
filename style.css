@@ -21,12 +21,18 @@ p, h2, a {
     border-bottom: 1px solid #5F54E8;
 }
 
-.nav-link {
+.navbar .navbar-expand-lg .navbar-light .navbar-nav .nav-item .nav-link .text-primary .atext  {
+    color: #5F54E8;
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
     color: #5F54E8;
 }
 
 .active {
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .pgtitle {
