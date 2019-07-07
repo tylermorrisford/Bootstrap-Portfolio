@@ -56,18 +56,26 @@ p, h2, a {
 .imgt {
     float:left;
     border-radius: 100%;
+    border: 1px solid #5F54E8;
     margin: 5px 10px 10px 0;
 }
 
 /* portfolio classes */
+@media screen and (max-width: 596px) {
+    .pwrap {
+        text-align: center;
+    }
+}
+
 
 .portbox {
     width: 200px;
     height: 200px;
     display: inline-block;
-    margin: 0 20px 30px 0;
+    margin: 0 20px 40px 0;
     border: 1px solid #5F54E8;
     opacity: 0.7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .portbox:hover {
@@ -75,21 +83,32 @@ p, h2, a {
 }
 
 .pb1 {
-    background-image: url();
+    background-image: url("assets/ipad-startup.jpg");
 }
 
 .pb2 {
-    background-image: url();
+    background-image: url("assets/drums.png");
 }
 
 .pb3 {
-    background-image: url();
+    background-image: url("assets/dice.png");
 }
 
 .pb4 {
-    background-image: url();
+    background-image: url("assets/john.png");
 }
 
+.pbtitle {
+    height: 35px;
+    width: 200px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color: #5F54E8;
+    font-size: 1.5rem;
+    
+}
 /* contact classes */
 
 .btn-primary {
