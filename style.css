@@ -61,6 +61,35 @@ p, h2, a {
 
 /* portfolio classes */
 
+.portbox {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 0 20px 30px 0;
+    border: 1px solid #5F54E8;
+    opacity: 0.7;
+}
+
+.portbox:hover {
+    opacity: 1;
+}
+
+.pb1 {
+    background-image: url();
+}
+
+.pb2 {
+    background-image: url();
+}
+
+.pb3 {
+    background-image: url();
+}
+
+.pb4 {
+    background-image: url();
+}
+
 /* contact classes */
 
 .btn-primary {
