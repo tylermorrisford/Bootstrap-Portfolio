@@ -62,6 +62,10 @@ p, h2, a {
     margin: 5px 10px 10px 0;
 }
 
+p.link {
+    text-decoration: none;
+}
+
 /* portfolio classes */
 @media screen and (max-width: 596px) {
     .pwrap {
