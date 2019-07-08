@@ -21,18 +21,9 @@ p, h2, a {
     border-bottom: 1px solid #5F54E8;
 }
 
-.navbar .navbar-expand-lg .navbar-light .navbar-nav .nav-item .nav-link .text-primary .atext  {
-    color: #5F54E8;
-}
-
-.navbar-light .nav-item.active .nav-link,
-.navbar-light .nav-item:focus .nav-link,
-.navbar-light .nav-item:hover .nav-link {
-    color: #5F54E8;
-}
-
 .active {
     font-weight: 900;
+    text-decoration: underline;
 }
 
 .pgtitle {
@@ -45,6 +36,11 @@ p, h2, a {
     font-size: 2rem;
     margin-bottom: 0;
 }
+/* Header ID */
+#atext {
+    color: #5F54E8;
+}
+
 /* about me classes */
 
 .page-wrapper {
