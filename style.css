@@ -78,6 +78,14 @@ p, h2, a {
 
   /* that animation is mildly creepy... */
 
+@media screen and (max-width:640px) {
+
+.imgt {
+    float:none;
+}    
+
+}
+
 .plink {
     text-decoration: none;
     color:#5F54E8
