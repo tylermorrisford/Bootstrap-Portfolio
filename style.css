@@ -95,7 +95,6 @@ p, h2, a {
 }    
 }
 
-/* That's the only media query I swear! */
 
 .plink {
     text-decoration: none;
@@ -107,28 +106,29 @@ p, h2, a {
 }
 
 /* portfolio classes */
-@media screen and (max-width: 596px) {
+@media screen and (max-width: 640px) {
     .pwrap {
         text-align: center;
     }
 }
-
+/* ^ that's the two media queries I've got ^ */
 
 .portbox {
     width: 200px;
     height: 200px;
     display: inline-block;
-    margin: 0 20px 40px 0;
+    text-align: center;
+    margin: 0 20px 20px 0;
     border: 1px solid #5F54E8;
-    opacity: 0.7;
+    opacity: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .portbox:hover {
-    opacity: 1;
+    opacity: 0.8;
 }
-
-.pb1 {
+/* old image links - might need to delete these's */
+/* .pb1 {
     background-image: url("assets/ipad-startup.jpg");
 }
 
@@ -142,13 +142,13 @@ p, h2, a {
 
 .pb4 {
     background-image: url("assets/john.png");
-}
+} */
 
 .pbtitle {
-    height: 35px;
+    /* height: 35px;
     width: 200px;
     position: relative;
-    top: 200px;
+    top: 200px; */
     text-align: center;
     font-family: 'Monoton', cursive;
     color: #5F54E8;
