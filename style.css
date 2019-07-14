@@ -46,8 +46,6 @@ p, h2, a {
 }
 
 
-
-
 /* Header ID */
 #atext {
     color: #5F54E8;
@@ -127,28 +125,8 @@ p, h2, a {
 .portbox:hover {
     opacity: 0.8;
 }
-/* old image links - might need to delete these's */
-/* .pb1 {
-    background-image: url("assets/ipad-startup.jpg");
-}
-
-.pb2 {
-    background-image: url("assets/drums.png");
-}
-
-.pb3 {
-    background-image: url("assets/dice.png");
-}
-
-.pb4 {
-    background-image: url("assets/john.png");
-} */
 
 .pbtitle {
-    /* height: 35px;
-    width: 200px;
-    position: relative;
-    top: 200px; */
     text-align: center;
     font-family: 'Monoton', cursive;
     color: #5F54E8;
